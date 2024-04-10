@@ -1,0 +1,30 @@
+wordpress:
+  # Set the WordPress admin username
+  username: admin
+
+  # Set the WordPress admin password
+  password: adminpassword
+
+  # Set the WordPress database name
+  database:
+    name: wordpress
+
+  # Set the WordPress database user
+  user: wpuser
+
+  # Set the WordPress database password
+  dbpassword: wpdbpassword
+
+mysql:
+  # Set the MySQL root password
+  rootPassword: mysqlrootpassword
+
+  # Set the MySQL database name
+  database:
+    name: wordpress
+
+  # Set the MySQL database user
+  user: wpuser
+
+  # Set the MySQL database password
+  password: wpdbpassword
