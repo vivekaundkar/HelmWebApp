@@ -21,8 +21,8 @@ spec:
             - name: WORDPRESS_DB_HOST
               value: "mysql"
             - name: WORDPRESS_DB_USER
-              value: "your_database_user"
+              value: "wpuser"
             - name: WORDPRESS_DB_PASSWORD
-              value: "your_database_password"
+              value: "wpdbpassword"
             - name: WORDPRESS_DB_NAME
               value: "wordpress"
