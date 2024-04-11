@@ -1,0 +1,5 @@
+rootPassword: mysecretpassword
+db:
+  name: wordpressdb
+  user: wordpress
+  password: mysecretpassword
