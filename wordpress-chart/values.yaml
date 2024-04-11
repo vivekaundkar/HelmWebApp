@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
-  repository: bitnami/wordpress
-  tag: 5.8.1-debian-10-r0
+  repository: wordpress
+  tag: latest
   pullPolicy: IfNotPresent
 service:
   type: LoadBalancer
