@@ -4,7 +4,13 @@ metadata:
   name: wordpress
 spec:
   replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: wordpress
   template:
+    metadata:
+      labels:
+        app: wordpress
     spec:
       containers:
         - name: wordpress
