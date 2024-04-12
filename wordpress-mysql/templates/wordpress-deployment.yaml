@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "wordpress-mysql.fullname" . }}
+  name: wordpressDP
 spec:
   replicas: 1
   selector:
@@ -33,4 +33,4 @@ spec:
   volumes:
   - name: wordpress-persistent-storage
     persistentVolumeClaim:
-      claimName: {{ include "wordpress-mysql.fullname" . }}
+      claimName: wordpressPVC
