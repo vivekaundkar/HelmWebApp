@@ -1,0 +1,4 @@
+apiVersion: v2
+name: wordpress-mysql
+description: A Helm chart for deploying WordPress with MySQL on EKS
+version: 0.1.0
