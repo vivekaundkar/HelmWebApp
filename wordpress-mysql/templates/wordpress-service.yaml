@@ -3,8 +3,10 @@ kind: Service
 metadata:
   name: wordpress
 spec:
+  type: LoadBalancer   # Change service type to LoadBalancer
   ports:
   - port: 80
+    targetPort: 80
     protocol: TCP
   selector:
     app: wordpress
