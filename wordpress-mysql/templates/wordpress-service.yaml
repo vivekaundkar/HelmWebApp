@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: wpservice
+  name: wordpress
 spec:
   ports:
   - port: 80
