@@ -9,4 +9,4 @@ spec:
     protocol: TCP
   selector:
     app: mysql
-  healthCheckNodePort: 80  # Define the health check port
+  healthCheckNodePort: 3306  # Define the health check port
