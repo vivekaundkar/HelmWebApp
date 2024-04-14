@@ -1,5 +1,7 @@
-rootPassword: mysecretpassword
-db:
-  name: wordpressdb
+mysql:
+  image: mysql:5.7
+  rootPassword: yourpassword
+  database: wordpress
   user: wordpress
-  password: mysecretpassword
+  password: yourpassword
+  volumeSize: 1Gi

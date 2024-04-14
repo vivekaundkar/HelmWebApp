@@ -1,10 +1,7 @@
-replicaCount: 1
-image:
-  repository: wordpress
-  tag: latest
-  pullPolicy: IfNotPresent
-service:
-  type: LoadBalancer
-  port: 80
-wordpressUsername: admin
-wordpressPassword: mysecretpassword
+wordpress:
+  image: wordpress:latest
+  databaseHost: mysql
+  databaseName: wordpress
+  databaseUser: wordpress
+  databasePassword: yourpassword
+  volumeSize: 1Gi
