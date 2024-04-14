@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: wordpress
 spec:
-  type: LoadBalancer
+  type: LoadBalancer   # Change service type to LoadBalancer
   ports:
-  - port: 443
+  - port: 80
     targetPort: 80
     protocol: TCP
   selector:
     app: wordpress
-  externalTrafficPolicy: Local
+  externalTrafficPolicy: Local  # Set externalTrafficPolicy to Local for healthCheckNodePort
